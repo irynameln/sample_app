@@ -12,6 +12,7 @@ group :development do
 end
 
 group :test do
+	gem 'sqlite3-ruby', :require => 'sqlite3'
 	gem 'rspec', '2.5.0'
 	gem 'webrat', '0.7.1'
 end
